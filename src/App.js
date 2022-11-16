@@ -1,34 +1,24 @@
-import warning from "./img/warning.svg";
+import image6 from "./img/img6.jpg";
 
 function App() {
   
   return (
-    // <div className="flex max-w-sm p-6 mx-auto rounded-xl shadow-xl bg-white mt-12 space-x-4">
-    //   <img src={warning} className="w-12 h-12" alt="not" />
-    //   <div>
-    //     <p className="text-xl font-medium text-black">Are You sure?</p>
-    //     <p className="text-slate-500">You are about to delete a post</p>
-    //   </div>
-    // </div>
-    <div className="h-screen p-4 flex flex-col">
-      <header className="flex-none flex flex-col md:flex-row justify-around items-end">
-        <div className="text-3xl mx-auto">APP NAME</div>
-        <nav className="flex text-xl gap-3 mx-auto">
-          <p href="">home</p>
-          <p href="">about</p>
-          <p href="">Contact</p>
-        </nav>
-      </header>
-      <main className="flex-auto h-52"></main>
-      <footer className="flex-none">
-        <div className="w-full">
-          <div className="flex flex-col items-center">
-            <p className="text-md">Copyright 2021.</p>
-            <img src={warning} className="flex-none w-12 h-12" alt="not" />
-            <p className="text-md">bye</p>
+    <div className="h-screen bg-black/80 flex items-center justify-center">
+      <div className="max-w-2xl mx-auto bg-black/40 text-white flex flex-col md:flex-row rounded-lg items-center">
+        <div className="md:p-3">
+          <img src={image6} alt="plant" className="w-full md:w-64 my-3 md:my-0 h-64 rounded-l-lg transform hover:scale-110 hover:rounded-lg duration-300"/>
+        </div>
+
+        <div className="mx-auto flex flex-col gap-4 px-8 font-serif">
+          <h1 className="text-2xl">Get diet and fitness tips in your inbox</h1>
+          <p className="text-white/70">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, reprehenderit!</p>
+          <div className="flex flex-col md:flex-row gap-4 my-5">
+            <input type="text" placeholder="Enter your email address" className="border border-white/20 bg-black/20 w-full text-white py-2 px-5 focus:outline-none"/>
+            <button type="submit" className="bg-green-600 rounded-lg px-5 h-12">Subscribe</button>
           </div>
         </div>
-      </footer>
+
+      </div>
     </div>
   );
 }
