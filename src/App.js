@@ -1,174 +1,38 @@
+import headset from "./img/headphone.png"
+import heart from "./img/heart.png"
+import weight from "./img/weight.png"
+
 function App() {
   
   return (
-    <div className="flex justify-center items-center bg-slate-800 text-white">
-      <div className="my-10 flex flex-col md:flex-row md:my-0 md:h-screen justify-center md:items-center gap-4">
-        <div className="h-100 md:h-128 w-72 border-8 border-slate-700 rounded-lg flex flex-col items-center">
-          <h3 className="my-5 text-xl">Basic</h3>
-          <h1 className="text-4xl font-serif">100GB</h1>
-          <p className="text-md">$1.99/month</p>
-          <button className="my-6 outline outline-1 outline-purple-600 hover:bg-purple-600 hover:outline-none px-8 py-2 rounded-md">Purchase</button>
-          <div className="w-full mt-10 pt-8 border border-b-0 border-slate-700 flex flex-col gap-1">
-            <div className="flex gap-2 justify-center">
-              <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <path d="M5 12l5 5l10 -10" />
-                </svg>
-              <p className="text-md">100 GB storage</p>
-            </div>
-            <div className="flex gap-2 justify-center">
-              <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <path d="M5 12l5 5l10 -10" />
-                </svg>
-              <p className="text-md">Option to add members</p>
-            </div>
-            <div className="flex gap-2 justify-center">
-              <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <path d="M5 12l5 5l10 -10" />
-                </svg>
-              <p className="text-md">Extra member benefits</p>
-            </div>
-          </div>
+    <div className="w-screen h-screen bg-slate-100 flex justify-center items-center">
+      <div className="bg-white shadow-2xl rounded-2xl p-2 md:p-14 flex flex-col md:flex-row gap-4 pb-6">
+        <div className="my-4">
+          <img src={headset} alt="" className="w-fit mx-auto h-48 rounded-2xl transform hover:scale-105 duration-200"/>
         </div>
-        <div className="h-100 md:h-128 w-72 border-8 border-purple-600 rounded-lg flex flex-col items-center">
-          <h3 className="my-5 text-xl">Standard</h3>
-          <h1 className="text-4xl font-serif">200GB</h1>
-          <p className="text-md">$3.99/month</p>
-          <button className="my-6 hover:outline hover:outline-1 hover:outline-none hover:bg-slate-700 bg-purple-600 px-8 py-2 rounded-md">Purchase</button>
-          <div className="w-full mt-10 pt-8 border border-b-0 border-slate-700 flex flex-col gap-1">
-            <div className="flex gap-2 justify-center">
-              <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <path d="M5 12l5 5l10 -10" />
-                </svg>
-              <p className="text-md">200 GB storage</p>
-            </div>
-            <div className="flex gap-2 justify-center">
-              <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <path d="M5 12l5 5l10 -10" />
-                </svg>
-              <p className="text-md">Option to add members</p>
-            </div>
-            <div className="flex gap-2 justify-center">
-              <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <path d="M5 12l5 5l10 -10" />
-                </svg>
-              <p className="text-md">Extra member benefits</p>
-            </div>
+        <div className="flex flex-col items-center md:items-start gap-2">
+          <div className="bg-black text-white rounded-2xl px-3 py-1 text-sm">Free Shipping</div>
+          <div className="flex flex-col items-center md:items-start">
+            <p className="text-xl font-bold">Razen Kracken Kitty Edt Gaming</p>
+            <p className="text-xl font-bold">Headset Quartz</p>
           </div>
-        </div>
-        <div className="h-100 md:h-128 w-72 border-8 border-slate-700 rounded-lg flex flex-col items-center">
-          <h3 className="my-5 text-xl">Premium</h3>
-          <h1 className="text-4xl font-serif">2TB</h1>
-          <p className="text-md">$8.99/month</p>
-          <button className="my-6 outline outline-1 outline-purple-600 hover:bg-purple-600 hover:outline-none px-8 py-2 rounded-md">Purchase</button>
-          <div className="w-full mt-10 pt-8 border border-b-0 border-slate-700 flex flex-col gap-1">
-            <div className="flex gap-2 justify-center">
-              <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <path d="M5 12l5 5l10 -10" />
-                </svg>
-              <p className="text-md">2 TB storage</p>
-            </div>
-            <div className="flex gap-2 justify-center">
-              <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <path d="M5 12l5 5l10 -10" />
-                </svg>
-              <p className="text-md">Option to add members</p>
-            </div>
-            <div className="flex gap-2 justify-center">
-              <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <path d="M5 12l5 5l10 -10" />
-                </svg>
-              <p className="text-md">Extra member benefits</p>
-            </div>
+          <p className="text-xs font-medium"><s>$799</s></p>
+          <p className="text-2xl font-bold">$599</p>
+          <p className="text-slate-400 text-xs">This offer is valid until April 3rd or as long as stock lasts!</p>
+          <button className="my-2 bg-blue-500 border-b-8 border-b-blue-800 w-full py-2 text-center text-white text-sm transform hover:border-b-0 hover:py-3 hover:bg-blue-800 rounded-lg duration-150">Add to Cart</button>
+          <div className="w-full flex gap-2 items-center my-2 group cursor-pointer">
+            <div className="w-3 h-3 rounded-full bg-green-400 group-hover:animate-ping"></div>
+            <p className="text-xs">50+ pcs, in stock</p>
+          </div>
+          <div className="w-full flex flex-col md:flex-row gap-2">
+            <button className="w-full outline outline-1 outline-slate-400 py-2 rounded-lg flex items-center justify-center gap-2 md:gap-1 text-sm font-medium hover:-translate-y-0.5 hover:shadow-lg hover:bg-opacity-20 transition-all duration-200">
+              <img src={weight} alt="" className="w-6"/>
+              <p>Add to Cart</p>
+            </button>
+            <button className="w-full outline outline-1 outline-slate-400 py-2 rounded-lg flex items-center justify-center gap-2 md:gap-1 text-sm font-medium hover:-translate-y-0.5 hover:shadow-lg hover:bg-opacity-20 transition-all duration-200">
+              <img src={heart} alt="" className="w-6"/>
+              <p>Add to Wishlist</p>
+            </button>
           </div>
         </div>
       </div>
