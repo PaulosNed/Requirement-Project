@@ -3,7 +3,7 @@
 // import img3 from "./img/image3.jpg"
 // import img4 from "./img/image4.jpg"
 // import img5 from "./img/image5.jpg"
-import img6 from "./img/image1.jpg"
+import img6 from "./img/image2.jpg"
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         class="relative flex flex-col m-6 space-y-10 bg-white shadow-2xl rounded-2xl md:flex-row md:space-y-0 md:m-0"
       >
         <div class="p-6 md:p-20">
-          <h2 class="font-mono mb-5 text-4xl font-bold">Register Student</h2>
+          <h2 class="font-mono mb-5 text-4xl font-bold">Register Teacher</h2>
           <p class="max-w-sm mb-3 font-sans font-light text-gray-600 text-sm">
             Please fill out your details
           </p>
