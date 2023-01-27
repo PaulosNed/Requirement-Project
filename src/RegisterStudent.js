@@ -3,11 +3,11 @@
 // import img3 from "./img/image3.jpg"
 // import img4 from "./img/image4.jpg"
 // import img5 from "./img/image5.jpg"
-import img6 from "./img/image2.jpg"
+import img6 from "./img/image1.jpg"
 
-function RegisterStudent() {
+function App() {
   return (
-    <div class="flex items-center justify-center min-h-screen bg-slate-100 ">
+    <div class="flex items-center justify-center min-h-screen bg-slate-100">
       <div
         class="relative flex flex-col m-6 space-y-10 bg-white shadow-2xl rounded-2xl md:flex-row md:space-y-0 md:m-0"
       >
@@ -87,4 +87,4 @@ function RegisterStudent() {
   );
 }
 
-export default RegisterStudent;
+export default App;
