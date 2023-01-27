@@ -7,12 +7,12 @@ import img6 from "./img/image2.jpg"
 
 function App() {
   return (
-    <div class="flex items-center justify-center min-h-screen bg-slate-100 ">
+    <div class="flex items-center justify-center min-h-screen bg-rose-50">
       <div
         class="relative flex flex-col m-6 space-y-10 bg-white shadow-2xl rounded-2xl md:flex-row md:space-y-0 md:m-0"
       >
         <div class="p-6 md:p-20">
-          <h2 class="font-mono mb-5 text-4xl font-bold">Register Teacher</h2>
+          <h2 class="font-mono mb-5 text-4xl font-bold">Register Student</h2>
           <p class="max-w-sm mb-3 font-sans font-light text-gray-600 text-sm">
             Please fill out your details
           </p>
@@ -39,13 +39,13 @@ function App() {
           <input
             type="text"
             class="w-full block my-4 mt-1 px-4 py-2 border border-gray-300 rounded-md placeholder:font-sans placeholder:font-light"
-            placeholder="Date of Birth"
+            placeholder="Add Field"
           />
-          {/* <input
+          <input
             type="text"
             class="w-full block my-4 mt-1 px-4 py-2 border border-gray-300 rounded-md placeholder:font-sans placeholder:font-light"
             placeholder="Add Field"
-          /> */}
+          />
 
           <div
             class="flex flex-col items-center w-full justify-end gap-6 mt-6 space-y-6 md:flex-row md:space-y-0"
