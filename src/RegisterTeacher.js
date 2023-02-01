@@ -24,7 +24,7 @@ function RegisterTeacher() {
             placeholder="Name"
           />
           <input
-            type="text"
+            type="email"
             class="w-full block my-4 mt-1 px-4 py-2 border border-gray-300 rounded-md placeholder:font-sans placeholder:font-light"
             placeholder="Email"
           />
@@ -43,11 +43,6 @@ function RegisterTeacher() {
             class="w-full block my-4 mt-1 px-4 py-2 border border-gray-300 rounded-md placeholder:font-sans placeholder:font-light"
             placeholder="Date of Birth"
           />
-          {/* <input
-            type="text"
-            class="w-full block my-4 mt-1 px-4 py-2 border border-gray-300 rounded-md placeholder:font-sans placeholder:font-light"
-            placeholder="Add Field"
-          /> */}
 
           <div
             class="flex flex-col items-center w-full justify-end gap-6 mt-6 space-y-6 md:flex-row md:space-y-0"

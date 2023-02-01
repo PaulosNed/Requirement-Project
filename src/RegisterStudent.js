@@ -24,7 +24,7 @@ function RegisterStudent() {
             placeholder="Name"
           />
           <input
-            type="text"
+            type="email"
             class="w-full block my-4 mt-1 px-4 py-2 border border-gray-300 rounded-md placeholder:font-sans placeholder:font-light"
             placeholder="Email"
           />
